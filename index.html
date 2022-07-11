@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SirD007">
+    <title>Login Form - Projeto SirD007</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left_container">
+            <div class="logo"><img src="images/logo.svg" alt=""></div>
+
+            <div class="login_form_container">
+                <div class="login_form_title">
+                    <span><img src="images/log-in.svg" alt=""> Faça seu Login</span>
+                    <p>Entre com suas informações de cadastro</p>
+                </div>
+
+                <form action="#" method="post">
+    
+                    <div class="form_item">
+                        <label for="email">E-mail</label>
+                        <div class="input">
+                            <i><img class="normal_icon" src="images/mail.svg" alt=""></i>
+                            <i><img class="focus_icon" src="images/mail-focus.svg" alt=""></i>
+                            <input placeholder="Digite seu E-mail" type="email" name="email" id="email_form">
+                        </div>
+                    </div>
+    
+                    <div class="form_item">
+                        <label for="password">Senha</label>
+                        <div class="input">
+                            <i><img class="normal_icon" src="images/lock.svg" alt=""></i>
+                            <i><img class="focus_icon" src="images/lock-focus.svg" alt=""></i>
+                            <input placeholder="Digite sua Senha" type="password" name="password" id="password_form">
+                            <i class="password_show bi bi-eye" id="togglePassword"></i>
+                        </div>
+                    </div>
+    
+                    <div class="password_options">
+                        <div class="remember_password_container">
+                            <input type="checkbox" name="remember" id="remember">
+
+                            <p>Lembre-me</p>
+                        </div>
+
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+    
+                    <button type="submit">Entrar</button>
+
+
+    
+                </form>
+
+                
+                <div class="register_container">
+                    <span class="register">Não tem uma conta? <a href="#">Registre-se</a></span>
+                </div>
+    
+            </div>
+
+        </div>
+
+
+
+        <div class="right_container">
+            <img src="images/side-image.jpg" alt="carro_camp">
+        </div>
+    </div>
+
+    <script src="script.js"></script>r
+</body>
+</html>
