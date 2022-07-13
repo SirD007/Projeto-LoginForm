@@ -26,18 +26,19 @@
   }
 
   .left_container {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .right_container {
-    width: 50%;
+    width: 40%;
+    object-fit: cover;
   }
 
   .right_container img {
-    width: 110%;
+    width: 100%;
   }
 
   .logo {
@@ -241,3 +242,47 @@ button:hover{
     color: var(--primary-color);
 }
 
+@media screen and (max-width: 768px) {
+      .right_container {
+        display: none;
+      }
+      
+      .left_container {
+        width: 70%;
+      }
+}
+
+@media screen and (max-width: 425px) {
+      body {
+        background-color: var(--form-background);
+      }
+
+      .login_form_container {
+        padding: 20px;
+      }
+
+      .input .password_show{
+      left: 230px;
+}
+}
+ 
+@media screen and (max-width: 375px) {
+
+      .login_form_container {
+        padding: 10px;
+      }
+
+      .input .password_show{
+      left: 215px;
+}
+}
+
+@media screen and (max-width: 320px) {
+      .login_form_container {
+        padding: 5px;
+      }
+
+      .input .password_show{
+      left: 190px;
+}
+}
